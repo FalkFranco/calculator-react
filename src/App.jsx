@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Calculator from './components/Calculator'
 import Result from './components/Result'
-import Math from './components/Math';
+
 
 
 function App() {
@@ -27,8 +27,8 @@ function App() {
         output = {output}
         setOutput = {setOutput}
         />
-
-        <Math />
+      
+        
       </div>
 
     </div>

@@ -5,7 +5,7 @@ const Result = ({input, setInput}) => {
     <div>
         <div className="">
             <form action="">
-                <input className='px-5 bg-cyan-500 shadow-lg shadow-cyan-500/50 text-white text-5xl text-right rounded-2xl font-RobotoMono' 
+                <input className=' px-5 py-2 text-2xl md:text-5xl bg-cyan-500 shadow-lg shadow-cyan-500/50 text-white  text-right rounded-2xl font-RobotoMono' 
                 type="text" 
                 value={input}
                 onChange = { e => setInput(e.target.value)}

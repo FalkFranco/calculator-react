@@ -4,7 +4,6 @@ import {evaluate} from 'mathjs'
 const Calculator = ({input, setInput, setOutput }) => {
 
   const resultado = ()=>{
-    // console.log('resultado')
     setOutput(evaluate(input).toString());
     setInput(evaluate(input).toString());
   }
@@ -13,12 +12,7 @@ const Calculator = ({input, setInput, setOutput }) => {
     setOutput('');
   }
   const clearLast =()=>{
-    // if(input.length == 0){
-
-    // }
     setInput(input.toString().slice(0, -1));
-   
-    // console.log(input.length);
   }
 
   

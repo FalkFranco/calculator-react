@@ -2,8 +2,6 @@ import { useState } from 'react'
 import Calculator from './components/Calculator'
 import Result from './components/Result'
 
-
-
 function App() {
   
   const [input, setInput] = useState('');

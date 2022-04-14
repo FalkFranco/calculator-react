@@ -24,11 +24,8 @@ function App() {
         input = {input}
         setInput = {setInput}
         
-        output = {output}
         setOutput = {setOutput}
         />
-      
-        
       </div>
 
     </div>

@@ -1,15 +1,15 @@
 import React from 'react'
-import {simplify} from 'mathjs'
+import {evaluate} from 'mathjs'
 
-const Calculator = ({input, setInput, output, setOutput }) => {
+const Calculator = ({input, setInput, setOutput }) => {
 
   const resultado = ()=>{
     // console.log('resultado')
-    setOutput(simplify(input).value);
-    setInput(simplify(input).value);
+    setOutput(evaluate(input).toString());
+    setInput(evaluate(input).toString());
   }
   const clear = ()=>{
-    setInput('');
+    setInput(''); 
     setOutput('');
   }
   const clearLast =()=>{
